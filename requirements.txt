@@ -1,0 +1,2 @@
+# Nenhuma dependência externa.
+# tkinter, re, string, secrets e unittest fazem parte do Python.
