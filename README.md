@@ -80,9 +80,3 @@ analisador_senhas/
 ├── .gitignore              # Arquivos ignorados pelo Git
 └── README.md                # Instruções do projeto
 ```
-
-## Observação de segurança
-
-O aplicativo funciona localmente e não salva as senhas digitadas. Mesmo assim,
-para estudar ou demonstrar o projeto, prefira usar senhas de exemplo em vez de
-uma senha real que você já utiliza.
