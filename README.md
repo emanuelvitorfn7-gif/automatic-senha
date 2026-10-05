@@ -73,10 +73,8 @@ Se todos os testes exibirem `ok`, a lógica principal está funcionando.
 
 ```text
 analisador_senhas/
-├── app.py                  # Interface gráfica
-├── password_tools.py       # Análise e geração de senhas
-├── test_password_tools.py  # Testes automáticos
-├── requirements.txt        # Informa que não há dependências externas
-├── .gitignore              # Arquivos ignorados pelo Git
-└── README.md                # Instruções do projeto
-```
+├── app.py                 
+├── password_tools.py      
+├── test_password_tools.py  
+├── requirements.txt        
+├── .gitignore             
