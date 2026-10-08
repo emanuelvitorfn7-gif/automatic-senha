@@ -1,80 +1,100 @@
-# Analisador e Gerador de Senhas
 
-Projeto básico em Python com interface gráfica. Ele analisa a senha enquanto
-você digita, informa o nível de força, mostra o que falta e cria uma sugestão
-mais segura. Também possui uma aba separada para gerar senhas personalizadas e
-uma interface escura confortável para uso no computador.
+# Password Analyzer and Generator
 
-## Recursos
+A basic Python project with a graphical user interface. It analyzes passwords in real time as you type, evaluates their strength, identifies missing security requirements, and suggests a stronger password.
 
-- Análise automática a cada caractere digitado;
-- interface totalmente escura;
-- barra de força com cores diferentes para cada nível;
-- níveis: muito fraca, fraca, intermediária, forte e muito forte;
-- lista do que falta para melhorar a senha;
-- sugestão automática de senha forte;
-- gerador com tamanho de 6 a 128 caracteres;
-- opções de maiúsculas, minúsculas, números e caracteres especiais;
-- opção para evitar caracteres ambíguos, como `I`, `l`, `1`, `O`, `0` e `o`;
-- botão para copiar a senha;
-- testes automáticos da lógica.
+The application also includes a separate tab for generating customizable passwords and a comfortable dark-themed interface for desktop use.
 
-## O que você pratica neste projeto
+## Features
 
-- strings e listas;
-- funções;
-- condições e repetição;
-- expressões regulares com `re`;
-- geração segura de valores com `secrets`;
-- interface gráfica com `tkinter`;
-- testes com `unittest`.
+- Real-time password analysis with every character typed
+- Fully dark-themed interface
+- Color-coded password strength indicator
+- Five strength levels: Very Weak, Weak, Medium, Strong, and Very Strong
+- List of missing requirements to improve password security
+- Automatic strong password suggestions
+- Password generator supporting 6 to 128 characters
+- Customizable options for uppercase letters, lowercase letters, numbers, and special characters
+- Option to exclude ambiguous characters such as `I`, `l`, `1`, `O`, `0`, and `o`
+- Button to copy generated passwords
+- Automated tests for core functionality
 
-> O projeto usa `secrets` em vez de `random`, pois `secrets` é mais apropriado
-> para gerar senhas imprevisíveis.
+## What You Will Practice
 
-## Como executar no VS Code
+- Strings and lists
+- Functions
+- Conditional statements and loops
+- Regular expressions using `re`
+- Secure random value generation using `secrets`
+- Graphical user interface development with `tkinter`
+- Automated testing with `unittest`
 
-1. Instale o Python 3 pelo site oficial e marque a opção **Add Python to PATH**.
-2. Extraia a pasta do projeto.
-3. Abra a pasta `analisador_senhas` no VS Code.
-4. Abra o terminal do VS Code pelo menu **Terminal > Novo Terminal**.
-5. Execute:
+> This project uses Python's `secrets` module instead of `random` because `secrets` is more suitable for generating unpredictable and secure passwords.
+
+## How to Run in VS Code
+
+1. Install Python 3 from the official website and enable **Add Python to PATH**.
+2. Extract the project folder.
+3. Open the `analisador_senhas` folder in Visual Studio Code.
+4. Open the integrated terminal through **Terminal > New Terminal**.
+5. Run the application:
 
 ```bash
 python app.py
 ```
 
-No Windows, se `python` não funcionar, tente:
+On Windows, if `python` does not work, try:
 
 ```bash
 py app.py
 ```
 
-Não é necessário executar `pip install`, pois o projeto usa somente bibliotecas
-incluídas no Python.
+No additional packages are required because the project uses only Python's standard library.
 
-## Como executar os testes
+## How to Run Tests
 
-Dentro da pasta do projeto, execute:
+Inside the project directory, run:
 
 ```bash
 python -m unittest -v
 ```
 
-Ou, no Windows:
+Alternatively, on Windows:
 
 ```bash
 py -m unittest -v
 ```
 
-Se todos os testes exibirem `ok`, a lógica principal está funcionando.
+If all tests return `ok`, the tested core functionality is working as expected.
 
-## Estrutura
+## Project Structure
 
 ```text
 analisador_senhas/
-├── app.py                 
-├── password_tools.py      
-├── test_password_tools.py  
-├── requirements.txt        
-├── .gitignore             
+├── app.py
+├── password_tools.py
+├── test_password_tools.py
+├── requirements.txt
+└── .gitignore
+```
+
+## Technologies Used
+
+- Python
+- tkinter
+- re
+- secrets
+- unittest
+
+## Project Purpose
+
+This project was developed to practice Python programming, password validation, secure password generation, graphical interface development, and automated testing.
+
+It also provides hands-on experience with basic password security concepts and secure coding practices.
+
+## Author
+
+Developed by **Emanuel Vítor Fernandes Nascimento**.
+
+[GitHub](https://github.com/emanuelvitorfn7-gif)
+
